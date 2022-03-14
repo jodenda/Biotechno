@@ -1,0 +1,64 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@jodenda 
+jodenda
+/
+Biotechno
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Biotechno/styleQuiz.css
+@jodenda
+jodenda Create styleQuiz.css
+Latest commit eedaf77 7 hours ago
+ History
+ 1 contributor
+22 lines (20 sloc)  278 Bytes
+   
+table {
+	border : groove black 5px;
+	width : 90%;
+}
+td {
+	border-collapse : collapse;
+}
+td {
+	text-align = left;
+	
+}
+td:nth-child(2n) {
+	width : 80%;
+	
+}
+td:nth-child(2n+1) {
+	width : 20%;	
+}
+td:nth-child(2n+1):hover {
+	background : rgba(0,0,0,0.5);
+	color      : lightblue;	
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
