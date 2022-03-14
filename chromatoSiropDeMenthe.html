@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html data-lt-installed="true"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8"> 
+	<title>Chromatographie sur le sirop industriel de menthe</title>
+<!-- ------------------------------------------------------------------>
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/numerotationTitres.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/ressourcesCachees.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/styleQuiz.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/simpleMenuHorizontal.css">
+
+<!-- ------------------------------------------------------------------>
+	<!-- Les deux lignes suivantes permettent d'insérer une icône à coté 
+	     de l'onglet de la page -->
+	<link rel="shortcut icon" href="http://jodenda.free.fr/BTS%20Biotech/BMGG/icone.ico" type="image/x-icon">
+	<link rel="icon" href="http://jodenda.free.fr/BTS%20Biotech/BMGG/icone.ico" type="image/x-icon">    
+	
+	<script language="JavaScript" src="./JS/moteurQuiz.js"></script>
+	<script language="JavaScript" src="./JS/quizExpressionGenes.js"></script>
+	<script language="JavaScript" src="./JS/affichages.js"></script> 
+	<script language="JavaScript">
+		var titrePage = "Cours sur l'expression des gènes";
+			var aurevoir = "À bientôt, revenez vite !";   //À = Alt + 0192
+			//var id = setInterval(ma_fontion, 1000);
+			
+		function titre(texte) 
+		{
+			document.title = texte;
+		}
+		function init () { // met en place les NQ questions/réponses/corrigés
+/*			NQ = Q.length; // nombre de questions
+			
+			let tabThemes = [7, "A", "B", "C", "D", "E", "F", "G"];
+			zoneQ = document.getElementById("zoneQuestions");
+			for (var i=1; i<NQ+1; i++) {
+				zoneQ.innerHTML += " <div id='dvQ"+i+"'></div><hr/>";
+				afficherQ ([i,1],[],tabThemes);
+			} */
+		}	
+	</script>
+	<style>
+		abbr {
+			font-weight : bold;
+			
+		}
+		/*
+		body {
+		  counter-reset: compteurFig;
+		}
+		
+		figcaption::before {
+		  counter-increment: compteurFig;
+		  content: "⮜ figure n° " counter(compteurFig) ": ";
+		}*/
+	</style>
+</head>
+
+<body onload="init();" onblur="titre(aurevoir);" onfocus="titre(titrePage);">
+<header>
+<p id="titrePrincipal">Régulation de l'expression des gènes codant des 
+protéines</p>
+<nav>
+	<ul class="menu">
+		<li><a href="./index.html">retour à la page d'accueil</a></li>
+		<li><a href="javascript:voir('agenda');">voir l'agenda</a></li>
+		<li><a href="">page ...</a>
+		</li>
+		<li><a href="http://jodenda.free.fr/BTS%20Biotech/BMGG/quiz_expression_gene_prot.html" title="Quiz pour s'entraîner">Quiz pour s'entraîner</a>
+		</li>
+	</ul>
+</nav>
+</header>
+<section>
+  <article>
+    <p>De quoi est fait le sirop de menthe ?</p>
+    <ul>
+      <li><a href="https://fr.wikipedia.org/wiki/Sirop_de_menthe#Pr%C3%A9paration" title="artisanal" target="_blank">version artisanale ;</a></li>
+      <li><a href="https://fr.wikipedia.org/wiki/Sirop_de_menthe#M%C3%A9thodes_industrielles" title="industriel" target="_blank">version industrielle.</a></li>
+      <li><a href="" title="" target="_blank"></a></li>
+    
+    </ul>
+    <h1>Les colorants</h1>
+    <figure><figcaption></figcaption>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Tartrazine.svg/langfr-1280px-Tartrazine.svg.png" alt="jaune de tartrazine" />
+    </figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Patentblau_V.svg/langfr-1024px-Patentblau_V.svg.png" alt="bleu Patente" />
+    
+  </article>
+</section>
+  </body>
+</html>
